@@ -1,0 +1,86 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+
+double i;
+double j;
+double k;
+int main()
+{
+		cin >> i;
+	if (i <= 3)
+	{
+		cout << "你的车费为8元" << endl;
+	}
+	else
+	{
+		if (i <= 10)
+		{   
+			j = (i - 3)*2.4 + 8;
+			cout << "你的车费为" << j << endl;
+		}
+		else
+		{
+			k = (i - 10)*3.6 + 24.8;
+			cout << "你的车费为" << k << endl;
+		}
+	}
+	system("pause");
+	return 0;
+
+}
+
+
+#include<iostream>
+#include<stdio.h>
+
+using namespace std;
+
+int main()
+{
+	int a;
+	cin >> a;
+	switch (a)
+	{
+	case 1:cout << "Jan" << endl;
+		break;
+	case 2:cout << "Feb" << endl;
+		break;
+	case 3:cout << "Mar" << endl;
+		break;
+	case 4:cout << "Apr" << endl;
+		break;
+	default:cout << "Data Error" << endl;
+		break; 
+	}
+	system("pause");
+	return 0;
+
+}
+
+
+
+#include<iostream>
+using namespace std;
+double power(double x, int y);
+
+int main(int argc, char const *argv[])
+{
+    double x;
+    int y;
+    cout << "输入两个数x、y,输出x的y次方" << endl;
+    cin>>x;
+    cin >>y;
+    cout << "x的y次方是：" << power(x, y) << endl;
+    system("pause");
+    return 0;
+}
+double power(double x, int y)
+{
+    double val = 1.0;
+    while(y--)
+    {
+        val*=x;
+    }
+    return val;
+}
