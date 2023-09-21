@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T07:19:51.231Z" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 EdgA/116.0.1938.58" etag="ILGIaMogj8JiD2hUpbKY" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T07:20:50.409Z" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 EdgA/116.0.1938.58" etag="oPbWxoWPYIJaq3bcJRoI" version="21.8.0" type="github">
   <diagram name="第 1 页" id="lOMtrpIBFysMOfEC4E47">
-    <mxGraphModel dx="1178" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1315" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="-320" y="110" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ONqVmB_V_H9rzUHz3-jq-2" value="招聘公司" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="580" y="100" width="100" height="60" as="geometry" />
+          <mxGeometry x="570" y="100" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ONqVmB_V_H9rzUHz3-jq-4" value="毕业生就业服务系统" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="40" y="90" width="180" height="80" as="geometry" />
@@ -54,7 +54,7 @@
           <mxGeometry x="-29" y="-110" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ONqVmB_V_H9rzUHz3-jq-16" value="发布招聘信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="470" y="-22" width="120" height="30" as="geometry" />
+          <mxGeometry x="346" y="80" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ONqVmB_V_H9rzUHz3-jq-17" value="查询学生应聘信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="331" y="220" width="150" height="30" as="geometry" />
@@ -86,12 +86,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ONqVmB_V_H9rzUHz3-jq-31" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ONqVmB_V_H9rzUHz3-jq-4">
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-31" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="ONqVmB_V_H9rzUHz3-jq-2" target="ONqVmB_V_H9rzUHz3-jq-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="580" y="120" as="sourcePoint" />
+            <mxPoint x="570" y="50" as="sourcePoint" />
             <mxPoint x="240" y="120" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="450" y="-120" />
+              <mxPoint x="410" y="-120" />
             </Array>
           </mxGeometry>
         </mxCell>
