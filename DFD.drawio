@@ -1,9 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T01:51:21.367Z" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 EdgA/116.0.1938.58" version="21.8.0" etag="ME-8OikgQqgwojTEg32r" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T07:04:53.464Z" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 EdgA/116.0.1938.58" etag="wMs8e8tDFlz12WsFNEFu" version="21.8.0" type="github">
   <diagram name="第 1 页" id="lOMtrpIBFysMOfEC4E47">
-    <mxGraphModel>
+    <mxGraphModel dx="1048" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-1" value="就业管理人员" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-3" value="应届毕业生" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="100" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-2" value="招聘公司" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-4" value="毕业生就业服务系统" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-5" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ONqVmB_V_H9rzUHz3-jq-2" target="ONqVmB_V_H9rzUHz3-jq-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="150" as="sourcePoint" />
+            <mxPoint x="170" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ONqVmB_V_H9rzUHz3-jq-3" target="ONqVmB_V_H9rzUHz3-jq-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="160" as="sourcePoint" />
+            <mxPoint x="20" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.667;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ONqVmB_V_H9rzUHz3-jq-1" target="ONqVmB_V_H9rzUHz3-jq-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="150" as="sourcePoint" />
+            <mxPoint x="170" y="100" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.333;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ONqVmB_V_H9rzUHz3-jq-4" target="ONqVmB_V_H9rzUHz3-jq-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="150" as="sourcePoint" />
+            <mxPoint x="170" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-11" value="查询信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-64" y="98" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-12" value="发送应聘信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-109" y="178" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-13" value="查询面试通知" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-19" y="198" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-14" value="招聘信息的统计" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-29" y="-52" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-15" value="招聘企业的审核" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="151" y="-32" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-16" value="发布招聘信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="211" y="88" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-17" value="查询学生应聘信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="196" y="158" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ONqVmB_V_H9rzUHz3-jq-18" value="安排面试通知" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="241" y="218" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
