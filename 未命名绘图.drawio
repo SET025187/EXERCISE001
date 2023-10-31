@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T04:35:58.207Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="xH0kkF4mV77dTOWReMum" version="22.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-31T04:37:31.464Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="byZNWlSCrIiIZtPKiuH1" version="22.0.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1282" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -500,7 +500,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2xJYDlLEZV6tdyzZUezy" name="第 2 页">
-    <mxGraphModel dx="1282" dy="579" grid="1" gridSize="4" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+    <mxGraphModel dx="1068" dy="483" grid="1" gridSize="4" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -652,13 +652,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TLBUF0zp9BK4Jdpb62Ai-29" value="查看修改订单信息" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="363" y="851" width="115" height="20" as="geometry" />
+          <mxGeometry x="347" y="851" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TLBUF0zp9BK4Jdpb62Ai-30" value="打印订单信息" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="395" y="851" width="115" height="20" as="geometry" />
+          <mxGeometry x="380" y="851" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TLBUF0zp9BK4Jdpb62Ai-32" value="添加商品及其信息" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="435" y="851" width="115" height="20" as="geometry" />
+          <mxGeometry x="428" y="851" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TLBUF0zp9BK4Jdpb62Ai-33" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="83Oe5abSjzKG174Ngal9-42" target="TLBUF0zp9BK4Jdpb62Ai-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -673,31 +673,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TLBUF0zp9BK4Jdpb62Ai-35" value="修改商品及其信息" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="467" y="851" width="115" height="20" as="geometry" />
+          <mxGeometry x="460.5" y="851" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TLBUF0zp9BK4Jdpb62Ai-38" value="添加会员及其信息" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="647" y="851" width="115" height="20" as="geometry" />
+          <mxGeometry x="652" y="851" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TLBUF0zp9BK4Jdpb62Ai-39" value="修改会员及其信息" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="679" y="851" width="115" height="20" as="geometry" />
+          <mxGeometry x="684" y="851" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TLBUF0zp9BK4Jdpb62Ai-40" value="添加支付方式信息" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="510" y="851" width="115" height="20" as="geometry" />
+          <mxGeometry x="504" y="851" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TLBUF0zp9BK4Jdpb62Ai-41" value="修改支付方式信息" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="539" y="851" width="115" height="20" as="geometry" />
+          <mxGeometry x="532" y="851" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TLBUF0zp9BK4Jdpb62Ai-42" value="添加配送方式信息" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="570" y="851" width="115" height="20" as="geometry" />
+          <mxGeometry x="575.5" y="851" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TLBUF0zp9BK4Jdpb62Ai-43" value="修改配送方式信息" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="599" y="851" width="115" height="20" as="geometry" />
+          <mxGeometry x="604" y="851" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TLBUF0zp9BK4Jdpb62Ai-44" value="上传图片" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="719" y="851" width="115" height="20" as="geometry" />
+          <mxGeometry x="724" y="851" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TLBUF0zp9BK4Jdpb62Ai-45" value="修改图片" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="747" y="851" width="115" height="20" as="geometry" />
+          <mxGeometry x="756" y="851" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TLBUF0zp9BK4Jdpb62Ai-49" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="TLBUF0zp9BK4Jdpb62Ai-32" target="83Oe5abSjzKG174Ngal9-43" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
