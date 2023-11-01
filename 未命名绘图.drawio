@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T06:12:47.185Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="JVH8dA3QZ5lnbPWyhFcG" version="22.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-11-01T03:46:59.777Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.58" etag="Qlpzd4Ai8u_G_1X07wMA" version="22.0.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1282" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -500,7 +500,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2xJYDlLEZV6tdyzZUezy" name="第 2 页">
-    <mxGraphModel dx="1508" dy="681" grid="1" gridSize="4" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+    <mxGraphModel dx="1556" dy="746" grid="1" gridSize="4" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -522,7 +522,7 @@
         <mxCell id="83Oe5abSjzKG174Ngal9-16" value="评论区" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;" parent="1" vertex="1">
           <mxGeometry x="211" y="660" width="115" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="83Oe5abSjzKG174Ngal9-17" value="购物车管理" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;" parent="1" vertex="1">
+        <mxCell id="83Oe5abSjzKG174Ngal9-17" value="购物车" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;" parent="1" vertex="1">
           <mxGeometry x="276" y="660" width="115" height="25" as="geometry" />
         </mxCell>
         <mxCell id="83Oe5abSjzKG174Ngal9-18" value="首页游览" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;" parent="1" vertex="1">
@@ -801,31 +801,31 @@
         <mxCell id="4CP-pOkxnFm92tOL-zuQ-2" value="特惠商品" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="112" y="851" width="115" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4CP-pOkxnFm92tOL-zuQ-3" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="4CP-pOkxnFm92tOL-zuQ-1" edge="1" source="83Oe5abSjzKG174Ngal9-18">
+        <mxCell id="4CP-pOkxnFm92tOL-zuQ-3" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="83Oe5abSjzKG174Ngal9-18" target="4CP-pOkxnFm92tOL-zuQ-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="741" as="sourcePoint" />
             <mxPoint x="108" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4CP-pOkxnFm92tOL-zuQ-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="4CP-pOkxnFm92tOL-zuQ-2" edge="1" source="83Oe5abSjzKG174Ngal9-18">
+        <mxCell id="4CP-pOkxnFm92tOL-zuQ-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="83Oe5abSjzKG174Ngal9-18" target="4CP-pOkxnFm92tOL-zuQ-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="741" as="sourcePoint" />
             <mxPoint x="74" y="818" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vj8U8McPCuDNV4JiuTbc-1" value="商品页面预览" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;" vertex="1" parent="1">
+        <mxCell id="vj8U8McPCuDNV4JiuTbc-1" value="商品页面预览" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;" parent="1" vertex="1">
           <mxGeometry x="168" y="481" width="115" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="vj8U8McPCuDNV4JiuTbc-2" value="购物车与订单管理" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="vj8U8McPCuDNV4JiuTbc-2" value="购物车与订单" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="284" y="481" width="118" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="vj8U8McPCuDNV4JiuTbc-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="83Oe5abSjzKG174Ngal9-3" target="vj8U8McPCuDNV4JiuTbc-1">
+        <mxCell id="vj8U8McPCuDNV4JiuTbc-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="83Oe5abSjzKG174Ngal9-3" target="vj8U8McPCuDNV4JiuTbc-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="428" y="670" as="sourcePoint" />
             <mxPoint x="478" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vj8U8McPCuDNV4JiuTbc-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="83Oe5abSjzKG174Ngal9-3" target="vj8U8McPCuDNV4JiuTbc-2">
+        <mxCell id="vj8U8McPCuDNV4JiuTbc-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="83Oe5abSjzKG174Ngal9-3" target="vj8U8McPCuDNV4JiuTbc-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="376" y="650" as="sourcePoint" />
             <mxPoint x="426" y="600" as="targetPoint" />
