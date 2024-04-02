@@ -10,13 +10,13 @@ void dfs(int dep)//深度(层数)
 {
 	if(dep==n+1)
 	{
-		for(int i=1;i<=n;++i)cout<<a[i]<<" \n"[i==n];
+		for(int i=1;i<=n;++i)cout<<a[i]<<" \n"[i==n];//当 i 等于 n 时，输出一个换行符 \n，否则输出一个空格
 		return;
 	}
 	for(int i=1;i<=n;++i)
 	{
 		if(vis[i])continue;
-		
+
 		vis[i]=true;
 		a[dep]=i;
 		

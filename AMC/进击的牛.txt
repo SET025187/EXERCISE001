@@ -1,0 +1,44 @@
+#include <bits/stdc++.h>
+using namespace std;
+using ll=long long;
+
+const int N = 2e5+9;
+
+int a[N],n,c;
+
+int f(int mid)
+{
+	int res =0,pre=-1e9;
+	for(int i =1;i<=n;++i)
+	{
+		if(a[i]-pre>=mid)res++,pre=a[i];
+	}
+	return res;
+}
+
+void solve()
+{
+	cin>>n>>c;
+	for(int i =1;i<=n;++i)cin>>a[i];
+	
+	sort(a+1,a+1+n);
+	int l=0,r=1e9+10;
+	
+	while(l+1!=r)
+	{
+		int mid =(l+r)>>1;//位运算 求中点 前提是 l 和 r 都是非负整数，并且它们的和不会溢出
+		if(f(mid)>=c)l=mid;
+		else r =mid;
+	}
+	cout<<l<<' ';
+}
+
+int main()
+{
+	ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
+	
+	int _=1;
+	while(_--)solve();
+
+	return 0;
+}
