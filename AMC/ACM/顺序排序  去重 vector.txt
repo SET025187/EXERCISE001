@@ -1,0 +1,61 @@
+![](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402081209191.png)
+
+![image-20240402081246274](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402081246274.png)![image-20240402082401437](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402082401437.png)
+
+![image-20240402082409399](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402082409399.png)
+
+![image-20240402082437306](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402082437306.png)
+
+\#include <bits/stdc++.h>
+
+using namespace std;
+
+using ll=long long;
+
+
+
+const int N = 2e5+9;
+
+
+
+vector<int> a;//存储整型数据的向量,一个空向量,动态地调整向量的大小
+
+
+
+int main()
+
+{
+
+​	ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
+
+​	
+
+​	int n;cin>>n;
+
+​	for(int i=1;i<=n;i++)
+
+​	{
+
+​		int x;cin>>x;
+
+​		a.push_back(x);
+
+​	}
+
+​	
+
+​	sort(a.begin(),a.end());
+
+​	a.erase(unique(a.begin(),a.end()),a.end());//unique 函数会将重复的元素移动到向量的末尾
+
+
+
+​	for(auto &i : a)cout<<i<<" ";//i 会依次绑定向量 a 中的每个元素
+
+​	
+
+​	return 0;
+
+
+
+}
