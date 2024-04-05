@@ -1,3 +1,4 @@
+```
 int bsearch_2(int l, int r)
 {
     while (l < r)
@@ -8,3 +9,5 @@ int bsearch_2(int l, int r)
     }
     return l;
 }
+```
+

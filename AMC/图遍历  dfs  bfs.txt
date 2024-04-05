@@ -1,3 +1,4 @@
+```
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -11,11 +12,13 @@ void dfs(int x)
 {
 	vis[x]=true;
 	
+
 	for(auto &y:g[x])
 	{
 		if(vis[y])continue;
 		dfs(y);
 	}
+
 }
 
 void bfs(int st)
@@ -26,6 +29,7 @@ void bfs(int st)
 	{
 		int x =q.front();q.pop();
 		
+
 		if(vis[x])continue;
 		vis[x]=true;
 		
@@ -35,12 +39,14 @@ void bfs(int st)
 			q.push(y);
 		}
 	}
+
 }
 
 int main()
 {
 	ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
 	
+
 	int n,m;cin>>n>>m;
 	while(m--)//边
 	{
@@ -54,4 +60,7 @@ int main()
 	for(int i=1;i<=n;++i)if(vis[i])cout<<i<<' ';
 	
 	return 0;
+
 }
+```
+

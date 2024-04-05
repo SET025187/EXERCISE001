@@ -4,6 +4,7 @@
 
 ![image-20240402085012044](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402085012044.png)
 
+```
 \#include <bits/stdc++.h>
 
 using namespace std;
@@ -55,3 +56,5 @@ int main()
 
 
 }
+```
+
