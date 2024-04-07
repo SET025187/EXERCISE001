@@ -1,0 +1,34 @@
+![image-20240402162303517](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402162303517.png)
+
+![image-20240402163440830](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402163440830.png)
+
+```
+\#include <bits/stdc++.h>
+using namespace std;
+using ll=long long;
+
+const int N = 1e5+9;
+
+void solve()
+{
+	int n;cin>>n;
+	set<int> st;
+	for(int i=1;i<=n;i++)
+	{
+		int x;cin>>x;
+		st.insert(x);
+	}	
+	for(auto &i : st)cout<<i<<' ';
+}
+
+int main()
+{
+	ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);	
+	int _=1;
+	while(_--)solve();	
+	return 0;
+}
+```
+
+
+

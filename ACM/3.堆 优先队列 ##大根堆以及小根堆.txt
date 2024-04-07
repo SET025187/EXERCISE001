@@ -1,0 +1,55 @@
+![image-20240331220254021](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240331220254021.png)
+
+![image-20240331220340629](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240331220340629.png)
+
+![](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402153331203.png)
+
+![image-20240402154253925](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402154253925.png)
+
+```
+\#include <bits/stdc++.h>
+using namespace std;
+using ll=long long;
+
+const int N = 1e5+9;
+
+void solve()
+{
+	int q;cin>>q;
+	priority_queue<ll> pq;//默认大根堆
+	
+	ll sum=0;
+	
+	while(q--)
+	{
+		int op;cin>>op;
+		if(op==1)
+		{
+			ll x;cin>>x;
+			pq.push(x);
+			
+			sum+=x;
+		}else if(pq.size())//堆不为空
+		{
+			sum-=pq.top();
+			pq.pop();
+		}
+	}
+	cout<<sum<<'\n';
+}
+
+int main()
+{
+	ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
+	
+	int _=1;
+	while(_--)solve();
+	
+	return 0;
+}
+
+```
+
+![image-20240402154528207](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402154528207.png)
+
+![image-20240402154532912](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402154532912.png)
