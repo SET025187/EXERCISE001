@@ -4,88 +4,44 @@
 
 ```
 \#include <bits/stdc++.h>
-
 using namespace std;
-
 using ll=long long;
 
-
-
 const int N = 1e5+9;
-
-
-
 int a[N],pos;
 
-
-
 void solve()
-
 {
+	int n;cin>>n;
+	for(int i =1;i<=n;++i)cin>>a[i];	
+	
+	stack<int> stk;
 
-​	int n;cin>>n;
+	pos=1;//a数组的索引
+	
+	for(int i =1;i<=n;++i)//i所需输出的车号
+	{
 
-​	for(int i =1;i<=n;++i)cin>>a[i];
+		while(pos<=n && (stk.empty()||stk.top()!=i))stk.push(a[pos++]);//右侧车入栈
 
-​	
-
-​	stack<int> stk;
-
-​	pos=1;//a数组的索引
-
-​	
-
-​	for(int i =1;i<=n;++i)//i所需输出的车号
-
-​	{
-
-​		while(pos<=n && (stk.empty()||stk.top()!=i))stk.push(a[pos++]);//右侧车入栈
-
-​		
-
-​		if(stk.top()==i)stk.pop();
-
-​		else
-
-​		{
-
-​			cout<<"No"<<'\n';
-
-​			return;
-
-​		}
-
-​	}
-
-​	
-
-​	cout<<"Yes"<<'\n';
-
+	
+		if(stk.top()==i)stk.pop();
+		else
+		{
+			cout<<"No"<<'\n';
+			return;
+		}
+	}	
+	cout<<"Yes"<<'\n';
 }
-
-
-
 int main()
-
 {
-
-​	ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
-
-​	
-
-
-
-​	int _=1;
-
-​	while(_--)solve();
-
-​	
-
-​	return 0;
-
-
-
+	ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
+	
+	int _=1;
+	while(_--)solve();
+	
+	return 0;
 }
 ```
-
 

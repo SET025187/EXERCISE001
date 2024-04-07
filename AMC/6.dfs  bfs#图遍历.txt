@@ -1,0 +1,72 @@
+![image-20240406102543026](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240406102543026.png)
+
+![image-20240406090643859](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240406090643859.png)![image-20240406105021514](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240406105021514.png)![image-20240406104907345](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240406104907345.png)
+
+![image-20240406104157977](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240406104157977.png)
+
+```
+#include <bits/stdc++.h>
+using namespace std;
+
+const int N = 1e5+9;
+
+vector<int> g[N];//graph
+
+bitset<N> vis;//记录是否被访问过,判环
+
+void dfs(int x)
+{
+	vis[x]=true;
+	
+
+	for(auto &y:g[x])
+	{
+		if(vis[y])continue;
+		dfs(y);
+	}
+
+}
+
+void bfs(int st)
+{
+	queue<int> q;
+	q.push(st);
+	while(!q.empty())//q.size()
+	{
+		int x =q.front();q.pop();
+		
+
+		if(vis[x])continue;
+		vis[x]=true;
+		
+		for(auto &y:g[x])
+		{
+			if(vis[y])continue;
+			q.push(y);
+		}
+	}
+
+}
+
+int main()
+{
+	ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
+	
+
+	int n,m;cin>>n>>m;
+	while(m--)//边
+	{
+		int u,v;cin>>u>>v;		//起点终点
+		if(u!=v)g[u].push_back(v);//避免添加自环边
+	}
+	
+	//dfs(1);
+	bfs(1);
+	
+	for(int i=1;i<=n;++i)if(vis[i])cout<<i<<' ';
+	
+	return 0;
+
+}
+```
+

@@ -4,63 +4,29 @@
 
 ```
 \#include <bits/stdc++.h>
-
 using namespace std;
-
 using ll=long long;
-
-
 
 const int N = 1e5+9;
 
-
-
 void solve()
-
 {
-
-​	int n;cin>>n;
-
-​	set<int> st;
-
-​	
-
-​	for(int i=1;i<=n;i++)
-
-​	{
-
-​		int x;cin>>x;
-
-​		st.insert(x);
-
-​	}
-
-​	
-
-​	for(auto &i : st)cout<<i<<' ';
-
+	int n;cin>>n;
+	set<int> st;
+	for(int i=1;i<=n;i++)
+	{
+		int x;cin>>x;
+		st.insert(x);
+	}	
+	for(auto &i : st)cout<<i<<' ';
 }
 
-
-
 int main()
-
 {
-
-​	ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
-
-​	
-
-​	int _=1;
-
-​	while(_--)solve();
-
-​	
-
-​	return 0;
-
-
-
+	ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);	
+	int _=1;
+	while(_--)solve();	
+	return 0;
 }
 ```
 

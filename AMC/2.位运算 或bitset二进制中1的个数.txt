@@ -4,65 +4,31 @@
 
 ```
 \#include <bits/stdc++.h>
-
 using namespace std;
-
 using ll=long long;
-
-
 
 const int N = 2e5+9;
 
-
-
 int f(int x)//暴力枚举
-
 {
-
-​	int res =0;
-
-​	while(x)
-
-​	{
-
-​		if(x&1)res++;//通过 x & 1 的位与操作检查当前最低位是否为1
-
-​		x>>=1;//右移操作 x >>= 1 将 x 向右移动一位
-
-​	}
-
-​	return res;
-
+	int res =0;
+	
+	while(x)
+	{
+		if(x&1)res++;//通过 x & 1 的位与操作检查当前最低位是否为1
+		x>>=1;//右移操作 x >>= 1 将 x 向右移动一位
+	}
+	return res;
 }
 
-
-
 int main()
-
 {
-
-​	ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
-
-​	
-
-​	int n;cin>>n;
-
-​	for(int i=1;i<=n;i++)
-
-​	{
-
-​		int x;cin>>x;
-
-​		cout<<f(x)<<' ';
-
-​	}
-
-​	
-
-​	return 0;
-
-
-
+	ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
+	
+	int _=1;
+	while(_--)solve();
+	
+	return 0;
 }
 ```
 
@@ -70,57 +36,30 @@ int main()
 
 ```
 \#include <bits/stdc++.h>
-
 using namespace std;
-
 using ll=long long;
-
-
 
 const int N = 5e3+9,M=5e5+9;//5e3*100
 
-
-
 void solve()
-
 {
+	int n;cin>>n;
 
-​	int n;cin>>n;
-
-​	
-
-​	for(int i=1;i<=n;i++)
-
-​	{
-
-​		int x;cin>>x;
-
-​		cout<<bitset<32>(x).count()<<' ';
-
-​	}
-
+	for(int i=1;i<=n;i++)
+	{
+		int x;cin>>x;
+		cout<<bitset<32>(x).count()<<' ';
+	}
 }
 
-
-
 int main()
-
 {
-
-​	ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
-
-​	
-
-​	int _=1;
-
-​	while(_--)solve();
-
-​	
-
-​	return 0;
-
-
-
+	ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
+	
+	int _=1;
+	while(_--)solve();
+	
+	return 0;
 }
 ```
 
