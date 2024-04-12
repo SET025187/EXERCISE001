@@ -1,9 +1,11 @@
+![image-20240331215325266](3.栈   ##火车进站 能否升序出栈.assets/image-20240331215325266-1712918839572-2.png)
+
 ![image-20240331215238762](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240331215238762.png)
 
-![image-20240331215325266](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240331215325266.png)![image-20240331215358352](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240331215358352.png)![image-20240331215831854](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240331215831854.png)
+![image-20240331215358352](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240331215358352.png)![image-20240331215831854](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240331215831854.png)
 
 ```
-\#include <bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 using ll=long long;
 

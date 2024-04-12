@@ -1,4 +1,4 @@
-![image-20240331193233947](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240331193233947.png)
+![image-20240331193233947](2.二分法 暴力枚举  ##最长连续不重复子序列.assets/image-20240331193233947-1712930478434-20.png)
 
 ![image-20240331193206292](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240331193206292.png)
 

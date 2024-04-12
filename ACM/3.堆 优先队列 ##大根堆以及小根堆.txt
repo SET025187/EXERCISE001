@@ -1,10 +1,12 @@
+![image-20240402154253925](3.堆 优先队列 ##大根堆以及小根堆.assets/image-20240402154253925-1712919834113-5-1712919835296-7.png)
+
 ![image-20240331220254021](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240331220254021.png)
 
 ![image-20240331220340629](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240331220340629.png)
 
 ![](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402153331203.png)
 
-![image-20240402154253925](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402154253925.png)
+
 
 ```
 \#include <bits/stdc++.h>

@@ -1,0 +1,40 @@
+![image-20240401222336940](2.桶排序  计数排  .assets/image-20240401222336940-1712926270908-17.png)
+
+![image-20240401222331115](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240401222331115.png)
+
+
+
+
+
+```
+#include <bits/stdc++.h>
+using namespace std;
+using ll=long long;
+
+const int N = 2e5+9;
+
+int c[N];
+
+int main()
+{
+	ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
+	
+
+	int n;cin>>n;
+	for(int i=1;i<=n;i++)
+	{
+		int x;cin>>x;
+		c[x]++;
+	}
+	
+	for(int i=0;i<=2e5;i++)
+	{
+		for(int j=0;j<c[i];j++)cout<<i<<' ';
+	}
+	cout<<'\n';
+	
+	return 0;
+
+}
+```
+

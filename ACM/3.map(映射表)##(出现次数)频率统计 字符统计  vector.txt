@@ -1,3 +1,5 @@
+![image-20240412192059139](3.map(映射表)##(出现次数)频率统计 字符统计  vector.assets/image-20240412192059139-1712920861194-9.png)![image-20240412192209214](3.map(映射表)##(出现次数)频率统计 字符统计  vector.assets/image-20240412192209214.png)
+
 ![image-20240402155618265](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402155618265.png)
 
 ![image-20240402155622019](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402155622019.png)
@@ -7,7 +9,7 @@
 ![image-20240402155633076](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402155633076.png)
 
 ```
-\#include <bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 using ll=long long;
 
@@ -23,7 +25,7 @@ void solve()
 	{
 		string s;cin>>s;
 		
-		if(mp.count(s))mp[s]++;
+		if(mp.count(s))mp[s]++;//检查 map 中是否已经存在字符串 s，如果存在，则将其对应的值加1
 		else v.push_back(s),mp[s]=1;
 	}	
 	for(auto &i : v)cout<<i<<' '<<mp[i]<<'\n';

@@ -1,6 +1,8 @@
+![image-20240402084233113](2.位运算 或bitset二进制中1的个数.assets/image-20240402084233113-1712926122204-14.png)
+
 ![image-20240402084154005](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402084154005.png)![image-20240402084326922](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402084326922.png)![image-20240402084344599](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402084344599.png)
 
-![image-20240402084218203](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402084218203.png)![image-20240402084233113](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402084233113.png)![image-20240402084307447](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402084307447.png)v
+![image-20240402084218203](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402084218203.png)![image-20240402084307447](C:\Users\set\AppData\Roaming\Typora\typora-user-images\image-20240402084307447.png)v
 
 ```
 \#include <bits/stdc++.h>
@@ -16,7 +18,7 @@ int f(int x)//暴力枚举
 	while(x)
 	{
 		if(x&1)res++;//通过 x & 1 的位与操作检查当前最低位是否为1
-		x>>=1;//右移操作 x >>= 1 将 x 向右移动一位
+		x>>=1;//右移操作 x >>= 1 将 x 向右移动一位  十进制/2
 	}
 	return res;
 }
