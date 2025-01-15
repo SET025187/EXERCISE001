@@ -2723,6 +2723,81 @@
         <mxCell id="aNzq-dLWI80wbJHwWI1s-17" value="vview&lt;div&gt;将结果返回给&lt;/div&gt;&lt;div&gt;用户&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2250" y="30" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-1" value="&lt;div&gt;图书管理系统&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="2752" y="60" width="120.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-2" value="&lt;div&gt;用户管理模块&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2530" y="160" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-3" value="&lt;div&gt;图书管理模块&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2858" y="160" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-4" value="&lt;div&gt;注册与登录功能&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="325" width="115" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-5" value="&lt;div&gt;用户权限管理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="2711" y="325" width="115" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="1KFGYXvDmtokkXbSV30W-2" target="1KFGYXvDmtokkXbSV30W-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2700" y="206" as="sourcePoint" />
+            <mxPoint x="2750" y="156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1KFGYXvDmtokkXbSV30W-1" target="1KFGYXvDmtokkXbSV30W-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2848" y="158" as="sourcePoint" />
+            <mxPoint x="2898" y="108" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1KFGYXvDmtokkXbSV30W-2" target="1KFGYXvDmtokkXbSV30W-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2644" y="228" as="sourcePoint" />
+            <mxPoint x="2682" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1KFGYXvDmtokkXbSV30W-5" target="1KFGYXvDmtokkXbSV30W-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2936" y="278" as="sourcePoint" />
+            <mxPoint x="2640" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-10" value="&lt;div&gt;图书信息展示&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="2845" y="320" width="115" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-11" value="&lt;div&gt;图书的增删改查&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="2980" y="320" width="115" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1KFGYXvDmtokkXbSV30W-3" target="1KFGYXvDmtokkXbSV30W-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2936" y="298" as="sourcePoint" />
+            <mxPoint x="2986" y="248" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1KFGYXvDmtokkXbSV30W-3" target="1KFGYXvDmtokkXbSV30W-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3056" y="302" as="sourcePoint" />
+            <mxPoint x="3106" y="252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-14" value="&lt;div&gt;用户信息展示&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="2551" y="325" width="115" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-15" value="&lt;div&gt;用户信息增删改查&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;horizontal=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2631" y="325" width="118" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-16" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1KFGYXvDmtokkXbSV30W-2" target="1KFGYXvDmtokkXbSV30W-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2840" y="510" as="sourcePoint" />
+            <mxPoint x="2890" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KFGYXvDmtokkXbSV30W-17" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1KFGYXvDmtokkXbSV30W-2" target="1KFGYXvDmtokkXbSV30W-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2788" y="490" as="sourcePoint" />
+            <mxPoint x="2838" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
