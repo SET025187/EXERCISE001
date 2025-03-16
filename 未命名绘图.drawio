@@ -2802,7 +2802,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CN-gd2Az5X08EvFUeGP5" name="第 9 页">
-    <mxGraphModel dx="1985" dy="2347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1478" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4075,6 +4075,49 @@
             <mxPoint x="2970" y="1500" as="sourcePoint" />
             <mxPoint x="2915" y="1440" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GyLbceY75Tsha2XpMyT7-128" value="LoginForm" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3680" y="1248" width="215" height="140" as="geometry">
+            <mxRectangle x="55" y="1190" width="80" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyLbceY75Tsha2XpMyT7-129" value="&lt;div&gt;-usernameFiled&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;-passwordFiled&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+initComponents()&lt;/div&gt;&lt;div&gt;+onLoginButtonClick()&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="GyLbceY75Tsha2XpMyT7-128">
+          <mxGeometry y="50" width="215" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GyLbceY75Tsha2XpMyT7-130" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="GyLbceY75Tsha2XpMyT7-128" source="GyLbceY75Tsha2XpMyT7-129" target="GyLbceY75Tsha2XpMyT7-129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="300" as="sourcePoint" />
+            <mxPoint x="755" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyLbceY75Tsha2XpMyT7-131" value="UserService" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3940" y="1268" width="215" height="100" as="geometry">
+            <mxRectangle x="55" y="1190" width="80" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyLbceY75Tsha2XpMyT7-132" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+authenticateUser()&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="GyLbceY75Tsha2XpMyT7-131">
+          <mxGeometry y="50" width="215" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GyLbceY75Tsha2XpMyT7-134" value="MainForm" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4210" y="1268" width="215" height="100" as="geometry">
+            <mxRectangle x="55" y="1190" width="80" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyLbceY75Tsha2XpMyT7-136" value="UserDao" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3690" y="1480" width="215" height="100" as="geometry">
+            <mxRectangle x="55" y="1190" width="80" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyLbceY75Tsha2XpMyT7-137" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+findByUsername()&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="GyLbceY75Tsha2XpMyT7-136">
+          <mxGeometry y="50" width="215" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GyLbceY75Tsha2XpMyT7-138" value="User" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3960" y="1480" width="215" height="100" as="geometry">
+            <mxRectangle x="55" y="1190" width="80" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyLbceY75Tsha2XpMyT7-139" value="-username&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;:String&lt;div&gt;-password&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;:String&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="GyLbceY75Tsha2XpMyT7-138">
+          <mxGeometry y="50" width="215" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
