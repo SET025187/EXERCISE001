@@ -4886,12 +4886,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tNIwJKXLWM-2L82GZ_FZ-19" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: Arial; letter-spacing: 0.4pt; font-size: 10.5pt;&quot;&gt;Manufacturer&lt;/span&gt;&lt;/p&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="607.5" y="2990" width="215" height="140" as="geometry">
+          <mxGeometry x="470" y="2950" width="352.5" height="160" as="geometry">
             <mxRectangle x="55" y="1190" width="80" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNIwJKXLWM-2L82GZ_FZ-20" value="&lt;div&gt;-color&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;:Color&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+draw()&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;:void&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="tNIwJKXLWM-2L82GZ_FZ-19">
-          <mxGeometry y="50" width="215" height="90" as="geometry" />
+        <mxCell id="tNIwJKXLWM-2L82GZ_FZ-20" value="&lt;div&gt;#&lt;span style=&quot;font-family: Arial; font-size: 14px; letter-spacing: 0.533333px; text-align: center; background-color: transparent;&quot;&gt;Appliance&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;:&lt;/span&gt;&lt;span style=&quot;font-family: Arial; font-size: 14px; letter-spacing: 0.533333px; text-align: center; background-color: transparent;&quot;&gt;Appliance&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 10pt; letter-spacing: 0.4pt; background-color: transparent;&quot;&gt;+Manufacturer(Appliance appliance)&amp;nbsp; &amp;nbsp;:void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-family: 微软雅黑; font-size: 10pt; letter-spacing: 0.4pt;&quot;&gt;+create()&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt; &lt;/span&gt;&amp;nbsp; :void&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="tNIwJKXLWM-2L82GZ_FZ-19">
+          <mxGeometry y="50" width="352.5" height="110" as="geometry" />
         </mxCell>
         <mxCell id="tNIwJKXLWM-2L82GZ_FZ-21" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tNIwJKXLWM-2L82GZ_FZ-19" source="tNIwJKXLWM-2L82GZ_FZ-20" target="tNIwJKXLWM-2L82GZ_FZ-20">
           <mxGeometry relative="1" as="geometry">
@@ -4914,19 +4914,19 @@
           <mxGeometry y="50" width="215" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tNIwJKXLWM-2L82GZ_FZ-25" value="TCL" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="645" y="3225" width="140" height="105" as="geometry">
+          <mxGeometry x="576.25" y="3225" width="140" height="105" as="geometry">
             <mxRectangle x="55" y="1190" width="80" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNIwJKXLWM-2L82GZ_FZ-26" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+draw()&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="tNIwJKXLWM-2L82GZ_FZ-25">
+        <mxCell id="tNIwJKXLWM-2L82GZ_FZ-26" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;+draw()&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;:&lt;/span&gt;void&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="tNIwJKXLWM-2L82GZ_FZ-25">
           <mxGeometry y="50" width="140" height="55" as="geometry" />
         </mxCell>
         <mxCell id="tNIwJKXLWM-2L82GZ_FZ-27" value="Hisense" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="855" y="3225" width="130" height="105" as="geometry">
+          <mxGeometry x="780" y="3225" width="130" height="105" as="geometry">
             <mxRectangle x="55" y="1190" width="80" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNIwJKXLWM-2L82GZ_FZ-28" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+draw()&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="tNIwJKXLWM-2L82GZ_FZ-27">
+        <mxCell id="tNIwJKXLWM-2L82GZ_FZ-28" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;+draw()&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;:&lt;/span&gt;void&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="tNIwJKXLWM-2L82GZ_FZ-27">
           <mxGeometry y="50" width="130" height="55" as="geometry" />
         </mxCell>
         <mxCell id="tNIwJKXLWM-2L82GZ_FZ-29" value="TV" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -4986,8 +4986,8 @@
             <mxPoint x="562" y="3200" as="sourcePoint" />
             <mxPoint x="795" y="3160" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="525" y="3170" />
-              <mxPoint x="715" y="3170" />
+              <mxPoint x="470" y="3170" />
+              <mxPoint x="646" y="3170" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -4995,16 +4995,16 @@
         <mxCell id="tNIwJKXLWM-2L82GZ_FZ-39" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="tNIwJKXLWM-2L82GZ_FZ-27" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="805" y="3170" as="sourcePoint" />
-            <mxPoint x="715" y="3170" as="targetPoint" />
+            <mxPoint x="640" y="3170" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="920" y="3170" />
+              <mxPoint x="845" y="3170" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tNIwJKXLWM-2L82GZ_FZ-40" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="tNIwJKXLWM-2L82GZ_FZ-25" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="815" y="3230" as="sourcePoint" />
-            <mxPoint x="715" y="3170" as="targetPoint" />
+            <mxPoint x="646" y="3170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tNIwJKXLWM-2L82GZ_FZ-41" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" source="tNIwJKXLWM-2L82GZ_FZ-24" target="tNIwJKXLWM-2L82GZ_FZ-20" parent="1">
@@ -5014,11 +5014,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tNIwJKXLWM-2L82GZ_FZ-42" value="Haier" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="3225" width="130" height="105" as="geometry">
+          <mxGeometry x="405" y="3225" width="130" height="105" as="geometry">
             <mxRectangle x="55" y="1190" width="80" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNIwJKXLWM-2L82GZ_FZ-43" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+draw()&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="tNIwJKXLWM-2L82GZ_FZ-42">
+        <mxCell id="tNIwJKXLWM-2L82GZ_FZ-43" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+draw()&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;:&lt;/span&gt;void&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="tNIwJKXLWM-2L82GZ_FZ-42">
           <mxGeometry y="50" width="130" height="55" as="geometry" />
         </mxCell>
       </root>
