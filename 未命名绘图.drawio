@@ -2802,7 +2802,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CN-gd2Az5X08EvFUeGP5" name="第 9 页">
-    <mxGraphModel dx="1895" dy="1617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2047" dy="1681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4814,19 +4814,19 @@
             <mxPoint x="755" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNIwJKXLWM-2L82GZ_FZ-4" value="client" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-62.5" y="2840" width="215" height="140" as="geometry">
+        <mxCell id="tNIwJKXLWM-2L82GZ_FZ-4" value="TextView" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2745" y="3160" width="215" height="140" as="geometry">
             <mxRectangle x="55" y="1190" width="80" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNIwJKXLWM-2L82GZ_FZ-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="tNIwJKXLWM-2L82GZ_FZ-4" vertex="1">
-          <mxGeometry y="50" width="215" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="tNIwJKXLWM-2L82GZ_FZ-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="tNIwJKXLWM-2L82GZ_FZ-4" source="tNIwJKXLWM-2L82GZ_FZ-5" target="tNIwJKXLWM-2L82GZ_FZ-5" edge="1">
+        <mxCell id="tNIwJKXLWM-2L82GZ_FZ-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="tNIwJKXLWM-2L82GZ_FZ-4" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="595" y="300" as="sourcePoint" />
-            <mxPoint x="755" y="300" as="targetPoint" />
+            <mxPoint y="80" as="sourcePoint" />
+            <mxPoint x="215" y="80" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tNIwJKXLWM-2L82GZ_FZ-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; font-size: 14px; letter-spacing: 0.533333px;&quot;&gt;+TextView&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;:void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-family: Arial; font-size: 10.5pt; letter-spacing: 0.4pt;&quot;&gt;display()&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;&lt;/span&gt;:void&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="tNIwJKXLWM-2L82GZ_FZ-4" vertex="1">
+          <mxGeometry y="50" width="215" height="90" as="geometry" />
         </mxCell>
         <mxCell id="tNIwJKXLWM-2L82GZ_FZ-7" value="&lt;font face=&quot;黑体&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Robot&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-360" y="3030" width="210" height="140" as="geometry">
@@ -5073,6 +5073,48 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Em12a9W2F2kp7RoESgND-16" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: Arial; letter-spacing: 0.4pt; font-size: 10.5pt;&quot;&gt;Compent&lt;/span&gt;&lt;/p&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3012.5" y="3010" width="207.5" height="110" as="geometry">
+            <mxRectangle x="55" y="1190" width="80" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Em12a9W2F2kp7RoESgND-17" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;" edge="1" parent="Em12a9W2F2kp7RoESgND-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="41" y="25" as="sourcePoint" />
+            <mxPoint x="21" y="25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Em12a9W2F2kp7RoESgND-18" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&lt;span style=&quot;font-family: Arial; font-size: 10.5pt; letter-spacing: 0.4pt; background-color: transparent;&quot;&gt;display()&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;:void&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="Em12a9W2F2kp7RoESgND-16">
+          <mxGeometry y="50" width="207.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Em12a9W2F2kp7RoESgND-19" value="PictureView" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3005" y="3160" width="215" height="140" as="geometry">
+            <mxRectangle x="55" y="1190" width="80" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Em12a9W2F2kp7RoESgND-20" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Em12a9W2F2kp7RoESgND-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="80" as="sourcePoint" />
+            <mxPoint x="215" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Em12a9W2F2kp7RoESgND-21" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; font-size: 14px; letter-spacing: 0.533333px;&quot;&gt;+PictureView&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;:void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-family: Arial; font-size: 10.5pt; letter-spacing: 0.4pt;&quot;&gt;display()&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;&lt;/span&gt;:void&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="Em12a9W2F2kp7RoESgND-19">
+          <mxGeometry y="50" width="215" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Em12a9W2F2kp7RoESgND-22" value="Decorator" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3415" y="3160" width="215" height="140" as="geometry">
+            <mxRectangle x="55" y="1190" width="80" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Em12a9W2F2kp7RoESgND-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Em12a9W2F2kp7RoESgND-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="80" as="sourcePoint" />
+            <mxPoint x="215" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Em12a9W2F2kp7RoESgND-24" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; font-size: 14px; letter-spacing: 0.533333px;&quot;&gt;+PictureView&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;:void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-family: Arial; font-size: 10.5pt; letter-spacing: 0.4pt;&quot;&gt;display()&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;&lt;/span&gt;:void&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="Em12a9W2F2kp7RoESgND-22">
+          <mxGeometry y="50" width="215" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
